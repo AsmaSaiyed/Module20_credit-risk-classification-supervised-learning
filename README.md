@@ -46,7 +46,7 @@ Structure your report by using the report template that Starter_Code.zip include
      The main aim of this model to train and evaluate Logistic Regression models to correctly identify credtworthiness of borrowers.
 
 3. ****The results****:
-      1. Accuracy: The accuracy of the model is 0.99, meaning that it correctly classifies 99% of the instances.
+      1. Accuracy: The accuracy of the model with original data is 0.95, meaning that it correctly classifies 95% of the instances.
       2. Precision:
     *  For healthy loans ('0'): The model has a precision of 1.00, which means it perfectly identifies true positives with no false positives.
     *   For high-risk loans ('1'): The model has a precision of 0.85, which means it is moderately  effective in identifying high-risk loans with some false positives.
