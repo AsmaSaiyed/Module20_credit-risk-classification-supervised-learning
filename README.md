@@ -35,8 +35,10 @@ Use your knowledge of logistic regression to complete the following steps:
 
 4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
+
+
 ## Write a Credit Risk Analysis Report
-Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the README.md file included in your GitHub repository.
+Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. 
 
 Structure your report by using the report template that Starter_Code.zip includes, ensuring that it contains the following:
 
@@ -52,4 +54,4 @@ Structure your report by using the report template that Starter_Code.zip include
       3.  Recall:
      *  For healthy loans ('0'): The model has a recall of 0.99, meaning that it perfectly identifies all instances of healthy loans with no false negatives.
      *   For high-risk loans ('1'): The model has a recall of 0.91, meaning that it is moderately effective in identifying high-risk loans with some false negatives.
-5. ****A summary****: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+5. ****A summary****: This module has a high accuracy level of 95% whihc is very good but still leaves scope for improvement.This can be proven with the help of the resampled data. When the resampled data was used the accurance of the model increased to 99%, thus proving there is defenite possibility of improvement.It is more wise to use a model which correctly classifies more high-risk loan. The risk associated with misclassifying a healthy loan as high-risk is lower than the risk of not classifying a high-risk loan as such.
